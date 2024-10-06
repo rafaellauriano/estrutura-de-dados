@@ -22,6 +22,7 @@ public class Programa {
 		System.out.println("Qual número você quer buscar? ");
 		int num = sc.nextInt();
 		
+		//busca linear não eficiente
 		boolean encontrou = false;
 		for(int i=0; i<numeros.length; i++) {
 			int elemento = numeros[i];
